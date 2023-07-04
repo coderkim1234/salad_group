@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>샐러드 그룹</title> 
+    <style>
+        h1{
+            color: greenyellow;
+            font-size: 70px;
+            text-align: center;
+            border-bottom: 5px solid rgb(147, 201, 55);
+            margin : 0 ;
+            padding: 20px;
+        }
+
+        ul{
+            border-right: 5px solid rgb(147, 201, 55);
+            width : 140px;
+            margin : 0 ;
+            padding : 20px;
+        }
+        #grid {
+            display : grid;
+            grid-template-columns: 200px 1fr;
+        }
+    </style>
+</head>
+<body>
+   <input type = "button" value = "밤" style="background-color: rgb(30, 138, 102); border-style: hidden;"
+   
+   onclick = "
+   document.querySelector('body'). style.backgroundColor='black';
+   document.querySelector('body').style.color = 'white';
+">
+   <input type = "button" value = "낮" style="background-color: aquamarine; border-style: hidden;"
+   
+   onclick = "
+   document.querySelector('body'). style.backgroundColor='white';
+   document.querySelector('body').style.color = 'black';
+">
+
+    <h1>샐러드</h1> 
+   
+   <div id="grid">
+   <ul>
+   <li><a href = "index.html">샐러드</a></li>
+   <li><a href = "onion.html">어니언</a></li>
+   <li><a href="nangkong.html">강낭콩</a></li>
+   <li><a href = "sauce.html">드레싱</a></li>
+   </ul>
+    <div>
+   <img src = "로고.png" width = "30%">
+
+    <p>
+        샐러드는 <u>신인 그룹이며 1집 엘범만 있다.</u><br>
+        소속사는 <strong>야나두 엔터테인먼트이며 메니저는 오래오(오타 아님)이다.</strong><br>
+        대뷔무대는 6월에 했다.<br>
+    </p>
+</div>
+</div>
+    
+</body>
+</html>
